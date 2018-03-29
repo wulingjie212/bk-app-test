@@ -25,7 +25,7 @@ from django.conf.global_settings import *
 APP_ID = 'bk-test-wlj'
 APP_TOKEN = '05b103bd-8053-43c0-bd1f-1e62092c4f78'
 # 蓝鲸智云开发者中心的域名，形如：http://paas.bking.com
-BK_PAAS_HOST = 'http://paas.blueking.com'
+BK_PAAS_HOST = 'http://paas.blueking.com:80'
 
 # 是否启用celery任务
 IS_USE_CELERY = True
