@@ -3,6 +3,7 @@
 from django.conf.urls import patterns
 
 urlpatterns = patterns('hxatm.views',
+    (r'^$', 'index'),
     (r'^index.html$', 'index'),
     (r'^detail.html$', 'detail'),
     (r'^tab.html$', 'tab'),
