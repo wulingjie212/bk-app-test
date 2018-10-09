@@ -4,7 +4,8 @@ from common.mymako import render_mako_context
 from django.http import HttpResponse
 
 def index(request):
-    return HttpResponse('hello world ---by cswlj')
+    return HttpResponse('hello world ---by cswlj222222222')
+    #return render_mako_context(request, '/home_application/home.html')
 
 def home(request):
     """
